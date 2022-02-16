@@ -1,1 +1,7 @@
 <p>Управление пользователями</p>
+<div>
+    <app-customer-row
+        *ngFor="let customerItem of customers"
+        [customer]="customerItem"
+    ></app-customer-row>
+</div>
